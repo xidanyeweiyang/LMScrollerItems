@@ -1,0 +1,326 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8A1806011E2F67AA00B5C467 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1806001E2F67AA00B5C467 /* main.m */; };
+		8A1806041E2F67AA00B5C467 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1806031E2F67AA00B5C467 /* AppDelegate.m */; };
+		8A18060C1E2F67AB00B5C467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A18060B1E2F67AB00B5C467 /* Assets.xcassets */; };
+		8A18060F1E2F67AB00B5C467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A18060D1E2F67AB00B5C467 /* LaunchScreen.storyboard */; };
+		8A1806181E2F67D400B5C467 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1806171E2F67D400B5C467 /* TestViewController.m */; };
+		8A18061B1E2F682000B5C467 /* LMNavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18061A1E2F682000B5C467 /* LMNavigationViewController.m */; };
+		8A18061E1E2F683E00B5C467 /* LMScrollerItemsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18061D1E2F683E00B5C467 /* LMScrollerItemsViewController.m */; };
+		8A1806231E2F68AA00B5C467 /* UIView+Size.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1806201E2F68AA00B5C467 /* UIView+Size.m */; };
+		8A1806241E2F68AA00B5C467 /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A1806221E2F68AA00B5C467 /* NSString+Extension.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8A1805FC1E2F67AA00B5C467 /* LMScrollerItems.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LMScrollerItems.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A1806001E2F67AA00B5C467 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8A1806021E2F67AA00B5C467 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8A1806031E2F67AA00B5C467 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8A18060B1E2F67AB00B5C467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A18060E1E2F67AB00B5C467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8A1806101E2F67AB00B5C467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A1806161E2F67D400B5C467 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		8A1806171E2F67D400B5C467 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
+		8A1806191E2F682000B5C467 /* LMNavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMNavigationViewController.h; sourceTree = "<group>"; };
+		8A18061A1E2F682000B5C467 /* LMNavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMNavigationViewController.m; sourceTree = "<group>"; };
+		8A18061C1E2F683E00B5C467 /* LMScrollerItemsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LMScrollerItemsViewController.h; sourceTree = "<group>"; };
+		8A18061D1E2F683E00B5C467 /* LMScrollerItemsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LMScrollerItemsViewController.m; sourceTree = "<group>"; };
+		8A18061F1E2F68AA00B5C467 /* UIView+Size.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Size.h"; sourceTree = "<group>"; };
+		8A1806201E2F68AA00B5C467 /* UIView+Size.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Size.m"; sourceTree = "<group>"; };
+		8A1806211E2F68AA00B5C467 /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		8A1806221E2F68AA00B5C467 /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A1805F91E2F67AA00B5C467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A1805F31E2F67AA00B5C467 = {
+			isa = PBXGroup;
+			children = (
+				8A1805FE1E2F67AA00B5C467 /* LMScrollerItems */,
+				8A1805FD1E2F67AA00B5C467 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8A1805FD1E2F67AA00B5C467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A1805FC1E2F67AA00B5C467 /* LMScrollerItems.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A1805FE1E2F67AA00B5C467 /* LMScrollerItems */ = {
+			isa = PBXGroup;
+			children = (
+				8A1806021E2F67AA00B5C467 /* AppDelegate.h */,
+				8A1806031E2F67AA00B5C467 /* AppDelegate.m */,
+				8A1806161E2F67D400B5C467 /* TestViewController.h */,
+				8A1806171E2F67D400B5C467 /* TestViewController.m */,
+				8A1806191E2F682000B5C467 /* LMNavigationViewController.h */,
+				8A18061A1E2F682000B5C467 /* LMNavigationViewController.m */,
+				8A18061C1E2F683E00B5C467 /* LMScrollerItemsViewController.h */,
+				8A18061D1E2F683E00B5C467 /* LMScrollerItemsViewController.m */,
+				8A18061F1E2F68AA00B5C467 /* UIView+Size.h */,
+				8A1806201E2F68AA00B5C467 /* UIView+Size.m */,
+				8A1806211E2F68AA00B5C467 /* NSString+Extension.h */,
+				8A1806221E2F68AA00B5C467 /* NSString+Extension.m */,
+				8A18060B1E2F67AB00B5C467 /* Assets.xcassets */,
+				8A18060D1E2F67AB00B5C467 /* LaunchScreen.storyboard */,
+				8A1806101E2F67AB00B5C467 /* Info.plist */,
+				8A1805FF1E2F67AA00B5C467 /* Supporting Files */,
+			);
+			path = LMScrollerItems;
+			sourceTree = "<group>";
+		};
+		8A1805FF1E2F67AA00B5C467 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8A1806001E2F67AA00B5C467 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A1805FB1E2F67AA00B5C467 /* LMScrollerItems */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A1806131E2F67AB00B5C467 /* Build configuration list for PBXNativeTarget "LMScrollerItems" */;
+			buildPhases = (
+				8A1805F81E2F67AA00B5C467 /* Sources */,
+				8A1805F91E2F67AA00B5C467 /* Frameworks */,
+				8A1805FA1E2F67AA00B5C467 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LMScrollerItems;
+			productName = LMScrollerItems;
+			productReference = 8A1805FC1E2F67AA00B5C467 /* LMScrollerItems.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A1805F41E2F67AA00B5C467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "刘明";
+				TargetAttributes = {
+					8A1805FB1E2F67AA00B5C467 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 8A1805F71E2F67AA00B5C467 /* Build configuration list for PBXProject "LMScrollerItems" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8A1805F31E2F67AA00B5C467;
+			productRefGroup = 8A1805FD1E2F67AA00B5C467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A1805FB1E2F67AA00B5C467 /* LMScrollerItems */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A1805FA1E2F67AA00B5C467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A18060F1E2F67AB00B5C467 /* LaunchScreen.storyboard in Resources */,
+				8A18060C1E2F67AB00B5C467 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A1805F81E2F67AA00B5C467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1806041E2F67AA00B5C467 /* AppDelegate.m in Sources */,
+				8A1806181E2F67D400B5C467 /* TestViewController.m in Sources */,
+				8A18061E1E2F683E00B5C467 /* LMScrollerItemsViewController.m in Sources */,
+				8A1806231E2F68AA00B5C467 /* UIView+Size.m in Sources */,
+				8A1806011E2F67AA00B5C467 /* main.m in Sources */,
+				8A18061B1E2F682000B5C467 /* LMNavigationViewController.m in Sources */,
+				8A1806241E2F68AA00B5C467 /* NSString+Extension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		8A18060D1E2F67AB00B5C467 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8A18060E1E2F67AB00B5C467 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8A1806111E2F67AB00B5C467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		8A1806121E2F67AB00B5C467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8A1806141E2F67AB00B5C467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMScrollerItems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LM.app.LMScrollerItems;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		8A1806151E2F67AB00B5C467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = LMScrollerItems/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LM.app.LMScrollerItems;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A1805F71E2F67AA00B5C467 /* Build configuration list for PBXProject "LMScrollerItems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1806111E2F67AB00B5C467 /* Debug */,
+				8A1806121E2F67AB00B5C467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A1806131E2F67AB00B5C467 /* Build configuration list for PBXNativeTarget "LMScrollerItems" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A1806141E2F67AB00B5C467 /* Debug */,
+				8A1806151E2F67AB00B5C467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8A1805F41E2F67AA00B5C467 /* Project object */;
+}
